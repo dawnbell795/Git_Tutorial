@@ -15,11 +15,10 @@ public class UserController {
 		return "user/insert"
 	}
 
-	// 회원정보 수정 페이지로 이동
+	// 정보 수정
 	@RequestMappint("/user/update.do")
 	public String update() {
-		logger.info("경로 : update");
+		logger.info("경로 : update
 		return "user/update"
 	}
-
 }
